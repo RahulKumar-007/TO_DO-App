@@ -3,8 +3,8 @@ import React from 'react'
 export const About = () => {
     return (
         <div>
-            This is an about component
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum corporis odio, nesciunt sed eveniet, nemo amet, dignissimos magnam itaque ipsam possimus. Inventore vitae, perferendis harum quas cupiditate adipisci repellendus tempore asperiores at consequatur quos?</p>
+            <p> You can add your todos through this and app and can toggle between the add and list method of todos using PLUS button</p>
+                <p>This Web App is developed by <a href="https://github.com/RahulKumar-007">Rahul Singh</a></p>
         </div>
     )
 }
