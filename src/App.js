@@ -89,7 +89,9 @@ function App() {
               <Todos todos={todos} onDelete={onDelete} />
             </div>
           </Route>
-          {/* ... (other routes) */}
+          <Route path="/about">
+            <About />
+          </Route>
         </Switch>
         <Footer />
       </Router>
